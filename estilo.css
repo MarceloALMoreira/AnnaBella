@@ -1,0 +1,124 @@
+:root {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	background: #d2d2c1 url('Imagens/Fundo1.jpg');
+	font: 16xp Arial, Helvetica, sans-serif;
+}
+
+
+img {
+	border-radius: 20px;
+}
+
+#principal {
+	width: 900px;
+}
+
+#menu {
+	background-color: rgb(115, 109, 247);
+	padding: 18px;
+	display: flex;
+	gap: 10px;
+
+	justify-content: center;
+}
+
+#conteudo {
+	background: #F9E2EE;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#paragrafo {
+	background: linear-gradient(157.44deg, rgba(255, 255, 255, 0.6) 0.84%, rgba(255, 255, 255, 0.6) 0.85%, rgba(255, 255, 255, 0.15) 100%);
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+	width: 650px;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#biografia{
+	background: linear-gradient(157.44deg, rgba(255, 255, 255, 0.6) 0.84%, rgba(255, 255, 255, 0.6) 0.85%, rgba(255, 255, 255, 0.15) 100%);
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+#campanha{
+	background: linear-gradient(157.44deg, rgba(255, 255, 255, 0.6) 0.84%, rgba(255, 255, 255, 0.6) 0.85%, rgba(255, 255, 255, 0.15) 100%);
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+#campanha img{
+	border-radius: 15px;
+	padding: 2px;
+	background-color: #736df7;
+	filter: grayscale(100%);
+	transition: 0.6s ease-in-out;
+}
+#campanha img:hover{
+	filter: grayscale(0%);
+	background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5));
+}
+
+.social {
+	display: flex;
+	gap: 22px;
+	color: #736df7;
+	font-size: 32px;
+
+}
+i{
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+i:hover{
+	color: #443bf7;
+}
+
+a {
+	color: #736df7;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+	background-color: white;
+	border-radius: 8px;
+	padding: 8px;
+	transition: 0.3s ease-in-out;
+}
+
+a:hover {
+	color: #000;
+}
+
+h1 {
+	color: #090606;
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: 500;
+}
+
+h4 {
+	color: #fff;
+}
+
+.footer {
+	background-color: #736df7;
+
+	height: 88px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
